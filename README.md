@@ -6,6 +6,7 @@ Objective-C Helper class to ease interaction with Apple&#39;s StoreKit API (In-A
 Features:
 --
 - Eases integration from In-App Purchases
+- AppStore Proven
 
 Future:
 --
