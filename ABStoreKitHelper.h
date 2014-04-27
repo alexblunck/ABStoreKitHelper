@@ -23,7 +23,7 @@ typedef enum {kPurchaseNotAllowed, kPurchaseGeneralError}_purchaseErrorCodes;
     NSMutableArray *productsArray;
 }
 
-@property (nonatomic, strong) id <ABStoreKitHelperDelegate> delegate;
+@property (nonatomic, weak) id <ABStoreKitHelperDelegate> delegate;
 @property (nonatomic) BOOL productValidated;
 
 //Call this once in the app delegate to set up everything
